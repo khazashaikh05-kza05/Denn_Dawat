@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="te">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>సంప్రదించండి — ఇస్లాం & హదీస్</title>
+  <meta name="description" content="సైట్ గురించి అభిప్రాయాలు లేదా ప్రశ్నల కోసం సంప్రదించండి." />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">ఇస్లాం & హదీస్ — తెలుగు</a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">హోమ్</a>
+      <a href="about.html">ఇస్లాం గురించి</a>
+      <a href="quran.html">ఖురాన్</a>
+      <a href="hadith.html">హదీస్</a>
+      <a href="prophet.html">ప్రవక్త ﷺ</a>
+      <a href="duas.html">దుఆలు</a>
+      <a href="morals.html">నైతిక బోధనలు</a>
+      <a href="glossary.html">గ్లోసరీ</a>
+      <a href="contact.html" class="active">సంప్రదించండి</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle9" aria-label="మెనూ">≡</button>
+  </div>
+</header>
+
+<main class="container">
+  <article class="content">
+    <h1>సంప్రదించండి</h1>
+    <p>మీ ప్రశ్నలు లేదా సూచనల కోసం క్రింది ఫార్మ్ ఉపయోగించండి. (ఈ ఉదాహరణలో ఫారం మెయిన్‌గా వ్యవహరిస్తుంది; మీరు బ్యాకెండ్ జోడించాలి.)</p>
+
+    <form class="contact-form" onsubmit="return contactSubmit(event)">
+      <label>పేరు
+        <input type="text" id="name" required placeholder="మీ పేరు">
+      </label>
+      <label>ఇమెయిల్
+        <input type="email" id="email" required placeholder="example@mail.com">
+      </label>
+      <label>సందేశం
+        <textarea id="message" rows="5" placeholder="మీ సందేశాన్ని ఇక్కడ టైప్ చేయండి..." required></textarea>
+      </label>
+      <button type="submit" class="btn">పంపండి</button>
+      <p id="contactStatus" class="status" aria-live="polite"></p>
+    </form>
+
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>డిస్క్లైమర్: “ఇక్కడ ఇచ్చిన హదీసులు అన్ని సాహీహ్, అసలా ఆధారాలతో ఇవ్వబడ్డాయి.”</p>
+    <p>© 2025 ఇస్లాం & హదీస్ — తెలుగు</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
